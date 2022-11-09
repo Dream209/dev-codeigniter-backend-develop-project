@@ -1,0 +1,6 @@
+
+local:	http://localhost:8081
+
+github: https://github.com/Work0755/dev-codeigniter-backend-develop-project-fed
+
+demo: dev-codeigniter-backend.demo.568899.net

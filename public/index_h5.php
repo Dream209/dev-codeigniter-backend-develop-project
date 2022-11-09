@@ -106,7 +106,7 @@ switch (ENVIRONMENT)
  * Set the path if it is not in the same directory as this file.
  * 指定系统目录名称
  */
-	$system_path = 'system';
+	$system_path = 'ci_system';
 
 /*
  *---------------------------------------------------------------

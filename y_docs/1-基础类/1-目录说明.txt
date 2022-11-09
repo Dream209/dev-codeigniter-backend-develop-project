@@ -1,0 +1,7 @@
+
+ci_system		ci核心框架
+ci_user_guide	框架自带的引导示例
+y_docs			补充的文档说明，思路及说明都放在这里了
+public			入口文档，含web、h5等
+app_web			web开发目录
+app_h5			h5开发目录

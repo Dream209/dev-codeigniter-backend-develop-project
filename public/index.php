@@ -54,7 +54,7 @@
  * NOTE: If you change these, also change the error_reporting() code below
  *
  * 你可以在你的环境里导入不同的环境名称。只要设置不同的日志和错误等级控制。
- * 主要有三种场景状态，分别是 development开发，testing测试，production产品
+ * 主要有三种场景状态，分别是 development开发，testing测试，production生产
  */
 	define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development');
  
@@ -104,7 +104,7 @@ switch (ENVIRONMENT)
  *
  * This variable must contain the name of your "system" directory.
  * Set the path if it is not in the same directory as this file.
- * 指定系统目录名称
+ * 指定系统目录名称，这里改为了ci_system，方便开发时代码目录分类
  */
 	$system_path = '../ci_system';
 
@@ -123,7 +123,7 @@ switch (ENVIRONMENT)
  *
  * NO TRAILING SLASH!
  *
- * 指定应用目录名称
+ * 指定应用目录名称，这里改为了app_web，方便开发时识别
  */
 	$application_folder = '../app_web';
 
